@@ -18,7 +18,7 @@
                         {{$post->subtitle}}
                         </h3>
                     </a>
-                    <p class="post-meta">Posted by <a href="#">Start Bootstrap</a> {{$post->created_at->diffForHumans()}}</p>
+                    <p class="post-meta">Posted by <a href="#">D Company</a> {{$post->created_at->diffForHumans()}}</p>
                 </div>
                 @endforeach
                 <hr>

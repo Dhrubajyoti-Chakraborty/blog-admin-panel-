@@ -12,6 +12,11 @@
 */
 Route::group(['namespace'=>'User'],function(){
     Route::get('/', 'HomeController@index');
+    
+    Route::get('about', 'AboutController@index')->name('about');
+    Route::get('contact', 'ContactController@index')->name('contact');
+
+
     Route::get('post/{post?}','PostController@post')->name('post');
 
     Route::get('post/tag/{tag}','HomeController@tag')->name('tag');
